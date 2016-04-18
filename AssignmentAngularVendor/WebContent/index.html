@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html data-ng-app="myNepal">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+   <link href="css/cs.css" rel="stylesheet" type="text/css">
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+   <script src = "https://code.angularjs.org/1.5.0-rc.0/angular-route.min.js"></script>
+   <script src="https://code.angularjs.org/1.5.0-rc.0/angular-resource.min.js"></script>
+   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">                  <!-- this one is for css login todo app -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+  <script src="ang/ang.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="background-color:white; margin-top:0px; margin-bottom:5px;">
+<header id="bigbox1">
+   <nav class="navbar navbar-default" style="background-color:white;">
+	   <div class="container" style="background-color:white;" >
+		  <div class="navbar-header">
+			 <a class="navbar-brand" href="#/index"><span style="color:red; font-size:30px; text-shadow: 0px 2px 2px blue; text-align:left;">Nirvana</span> </a>
+		  </div>
+               
+			  <ul class="nav navbar-nav navbar-right" id="ab">
+                <li class="abcd"><a href="#/home"> <span class="glyphicon glyphicon-user"></span> Home</a></li>
+                <li class="abcd"><a href="#/about"> <span class="glyphicon glyphicon-log-in"></span> About</a></li>
+             </ul>
+		</div>
+	</nav>
+</header>
+<section id="bigbox1">
+  <div class="container-fluid" style="background-color:white;">
+     <div class="row">
+        <div class="col-sm-12">
+        <div class="background">
+  <div class="transbox">
+    <p>Babaji always in the mood!!.</p>
+  </div>
+</div>
+            <div data-ng-view></div>
+        </div>
+     </div>
+  </div>
+</section>
+
+<hr>
+  <div class="container-fluid" style="background-color:white;">
+<footer id="Seeall" >
+   <div class="row" id="bigbox1">
+   
+      <ul class="foot" class="col-sm-4">
+         <li class="foot">&copy; 2016 Nirvana</li>
+           <li class="foot"><a href="#/contacts">Contact us</a></li>
+         <li class="foot"><a href="#/services">Privacy statement</a></li>
+      </ul>
+      <ul class="col-sm-4">
+         <li class="foote" ><a href="https://www.facebook.com/"><img src="image/facebook.png"></a></li>
+           <li class="foote" ><a href="https://www.twitter.com/"><img src="image/twitter.png"></a></li>
+             <li class="foote" ><a href="https://www.googleplus.com/"><img src="image/googleplus.png"></a></li>
+           <li class="foote" ><a href="https://www.flickr.com/"><img src="image/flickr.png"></a></li>
+         <li class="foote" ><a href="https://www.vimeo.com/"><img src="image/vimeo.png"></a></li>
+     </ul>
+    
+   </div>
+</footer> 
+ </div>
+
+
+
+</div>
+
+</body>
+</html>

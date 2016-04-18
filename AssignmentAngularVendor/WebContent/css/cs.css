@@ -1,0 +1,156 @@
+
+#bigbox{
+	box-shadow: 10px 10px 10px DimGray;
+}
+
+#bigbox1{
+	box-shadow: 0px 10px 10px DimGray;
+}
+
+#pashu{
+	box-shadow: 0px 10px 10px SteelBlue;
+}
+#swyam{
+	box-shadow: 0px 10px 10px darkGreen;
+}
+#boudha{
+	box-shadow: 0px 10px 10px IndianRed;
+}
+#lumbini{
+	box-shadow: 0px 10px 10px SkyBlue;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.imgsize {
+	height: 150px;
+	}
+	
+.foot{
+	display: inline;
+}	
+
+.foote{
+	display: inline;
+}
+
+#navigator{
+	border:none;
+}
+.container{
+	margin-top:20px;
+	margin-bottom:5px;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+  .active {
+    background-color:DeepSkyBlue;
+} 
+
+li a:hover {
+    background-color: DeepSkyBlue;
+    color: white;
+} 
+
+#abc a:hover {
+    background-color: DeepSkyBlue;
+    color: white;
+} 
+
+#ab a:hover {
+    background-color: DeepSkyBlue;
+    color: white;
+} 
+ #abc a.active {
+    background-color: DeepSkyBlue;
+    color: white;
+} 
+#ab a.active {
+    background-color: DeepSkyBlue;
+    color: white;
+} 
+
+/* li a:hover:not(.active) {
+    background-color: DeepSkyBlue;
+    color: white;
+} */
+
+/* #abc a:hover:not(.active) {
+    background-color: DeepSkyBlue;
+    color: white;
+} */
+/* #ab a:hover:not(.active) {
+    background-color: DeepSkyBlue;
+    color: white;
+} */
+
+/* fo maps only */
+#map {
+    height:420px;
+    width:600px;
+}
+.infoWindowContent {
+    font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+h2 {
+    margin-bottom:0;
+    margin-top: 0;
+}
+
+
+
+
+
+
+.background {
+  background: url(../image/babaji1.jpg) repeat;
+  border: 2px solid black;
+}
+
+.transbox {
+  margin-top: 200px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+
+ /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+  height: 12px;
+}
+
+
+
+
